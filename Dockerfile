@@ -3,7 +3,7 @@
 FROM ubuntu:18.04
 
 # Install dependencies, LIBS/BIN files
-RUN apt-get update -y && apt-get install apache2 php -y
+RUN apt-get update -y && apt-get install apache2 -y
 
 #Install app
 RUN rm -rf /var/www/html/
